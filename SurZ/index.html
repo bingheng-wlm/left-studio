@@ -83,7 +83,8 @@
     <center>
         <div>
             <h1 class="main-title">书，己之所知。</h1>
-            <button class="download-surztexteditor-bt" onclick="down()">DOWNLOAD 1.2 VERSION</button>
+            <button class="download-surztexteditor-bt" onclick="downwin()">DOWNLOAD 1.2 VERSION FOR WINDOWS</button>
+            <button class="download-surztexteditor-bt" onclick="downlin()">DOWNLOAD 1.2 VERSION FOR LINUX</button>
         </div><br><br>
         <video src="video.mp4" controls="controls" loop="loop" class="video-show-box">
             您的浏览器暂时不支持播放这个视频，请更换主流浏览器！
@@ -119,7 +120,7 @@
                 </h3><br><br><br>
             </div>
         </div>
-        <h1 class="some-youdian-xi">&nbsp;由于特殊原因，Linux和Mac版本暂未打包，请自行编译，可在qt creator中用realses模式编译一次。如果有成功在linux下打包的开发者请联系作者(qygwhk@163.com)，征得您的同意后，我们会将您的打包版本挂在我们的官网上。</h1><br><br><br>
+        <h1 class="some-youdian-xi">&nbsp;由于特殊原因，Mac版本暂未打包，请自行编译，可在qt creator中用realses模式编译一次。如果有成功在linux下打包的开发者请联系作者(qygwhk@163.com)，征得您的同意后，我们会将您的打包版本挂在我们的官网上。</h1><br><br><br>
         <div class="download-bot">
             <button class="download-surztexteditor-bt" onclick="down()">DOWNLOAD 1.2 VERSION</button>
             <br><br><br><br><br><br><br><br>
@@ -131,8 +132,11 @@
 
     </center>
     <script>
-        function down(){
+        function downwin(){
             window.open("SurZ.zip");
+        }
+         function downlin(){
+            window.open("SurZ.appimage");
         }
     </script>
     <script>
