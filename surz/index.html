@@ -79,7 +79,7 @@
 
     <div class="right-text">
         <span class="have-photo">
-            &nbsp;&nbsp;&nbsp; 内置十几张唯美背景图
+            &nbsp;&nbsp;&nbsp; 内置十几张背景图
         </span>
         <br>
         <span class="do-a">
@@ -92,12 +92,16 @@
         <br><br><br><br>
         <div id="download">
             <div class="download-bt">
-                <h1 class="never-change">从未改过的信念</h1>
+                <h1 class="never-change">我们从未改过的信念</h1>
                 <br><br><br>
                 <div class="line"></div>
                 <br><br><br><br><br><br><br><br><br>
-                <button class="download-buttons">Download for Windows</button><br><br><br><br><br><br>
-                <button class="download-buttons">Download for Linux</button>
+                <button class="download-buttons" onclick="down()">Download for Windows</button><br><br><br><br><br><br>
+                <script>     
+                    function down(){window.open("files/SurZ.zip");}</script>                                        
+                <button class="download-buttons" onclick="downLin()">Download for Linux</button>
+                <script>     
+                    function downLin(){window.open("files/SurZ.appimage");}</script>
             </div>
         </div>
         <div class="back-to-main">
