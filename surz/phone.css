@@ -1,0 +1,192 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font-family: DejaVu-Sans-Mono;
+}
+@font-face{
+    font-family: DejaVu-Sans-Mono;
+    src: url(font/DejaVuSansMono.ttf);
+}
+@font-face{
+    font-family: HYShouJinShuj;
+    src: url(font/HYShouJinShuJ.ttf);
+}
+@font-face{
+    font-family: HanSansCN;
+    src: url(font/SourceHanSansCN-Regular.otf);
+
+}
+@font-face{
+    font-family: HanSerifCN;
+    src: url(font/SourceHanSerifCN-Regular.otf);
+}
+.surz-biggest-title{
+    font-size: 200px;
+    font-weight: lighter;
+    /* position: relative;
+    top:300px; */
+    color: #777987;
+    font-family: HYShouJinShuj;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+#main-page{
+    background: url(image/bg.png) no-repeat;
+    width: 100%;
+    height: 1200px;
+}
+.learn-more-bt{
+    height: 40px;
+    width: 80%;
+    border-radius: 10px;
+    font-size: 15px;
+    background: transparent;
+    border:solid 2px #777987; 
+    transition: all 0.3s;
+
+}
+.learn-more-bt:hover{
+    background: rgb(170, 170, 170);
+}
+.feature-1{
+    font-weight: lighter;
+    font-size: 15px;
+}
+img{
+    width: 90%;
+}
+.title-1{
+    /* position: relative;
+    left: 1050px;
+    top:-450px; */
+    font-size: 50px;
+    line-height: 70px;
+    color:#777987; 
+    font-family: HanSerifCN;
+    font-weight: bolder;
+    padding: 30px;
+}
+a{
+    font-family: HanSerifCN;
+    color:#777987;
+}
+.arti-1-1,.arti-2-1{
+    /* position: relative;
+    left: 1125px;
+    top:-450px; */
+    padding: 30px;
+    font-size: 20px;
+    line-height: 70px;
+    color:#777987; 
+    font-family: HanSerifCN;
+}
+.arti-1-2,.arti-2-2{
+    /* position: relative;
+    left: 1050px;
+    top:-450px; */
+    font-size: 20px;
+    line-height: 70px;
+    color:#777987; 
+    font-family: HanSerifCN;
+    padding: 30px;
+    position: relative;
+    left:30px;
+}
+
+
+.title-2{
+    font-size: 50px;
+    line-height: 70px;
+    color:#777987; 
+    font-family: HanSerifCN;
+    font-weight: bolder;
+    padding: 30px;
+}
+
+.left-text{
+    /* float: left; */
+    font-size: 1.3rem;
+    color:#777987; 
+    line-height: 70px;
+    /* position: relative;
+    top:1100px; */
+    font-family: HanSerifCN;
+    position: relative;
+    left:10%;
+    padding: 5%;
+}
+.right-text{
+    /* float: right; */ 
+    font-size: 1.3rem;
+    color:#777987; 
+    /* position: relative; 
+    top:-400px; */
+    padding: 5%;
+    line-height: 70px; 
+    font-family: HanSerifCN; 
+    position: relative;
+    left:10%;
+}
+.never-change{
+    font-size: 40px;
+    color:#414249;  
+}
+.do-a{
+    position: relative;
+    left:70px;
+}
+.download-buttons{
+    font-size: 20px;
+    padding: 10px;
+    width: 80%;
+    background-color:#dadada;
+    transition: all 0.3s;  
+    border-radius: 8px;
+}
+.download-buttons:hover{
+    background-color: transparent;
+}
+.learn-a{
+    color:rgb(44, 44, 44);
+    font-size: 20px;
+}   
+
+.back-to-main{
+    position: fixed;
+    bottom: 0px;
+    height: 30px;
+    width: 100%;
+    background-color: #c2c2c2;
+    line-height: 30px;
+    color:white;
+}
+
+
+
+/*Photos*/
+.first-img-simple-photo{
+    padding: 30px;
+    width: 70%;
+}
+.second-img-simple-photo{
+    padding: 30px;
+    width: 70%;
+    position: relative;
+    left:20%;
+}
+
+.first-img-thing{
+    position: relative;
+    left:20%;
+}
+.first-img-things{
+    position: relative;
+    left:10%;
+}
+.happy-img{
+    width: 70%;
+}
+
